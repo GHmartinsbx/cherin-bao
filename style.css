@@ -71,3 +71,24 @@ button {
     text-align: center;
     margin: 0 auto;
 }
+
+.header {
+    background-color: #492702;
+    padding: 20px;
+    text-align:center; 
+}
+
+.logo {
+    background-color: #492702;
+    width: 3000px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #f9f5f2;
+    font-size: 66px;
+    
+}
