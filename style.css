@@ -27,8 +27,9 @@ p {
 }
 img {
     width: 130px;
-    height: 110px;
+    height: 120px;
     border-radius: 4px;
+    object-fit: cover;
 }
 
 .preço {
@@ -44,13 +45,8 @@ img {
     gap: 20px;
 }
 
-.produto-card {
-    background-color: #f9f5f2;
-    border: 1px solid #e0d6d1;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 150px;
-    margin-left: 60px;
+.cafés {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
