@@ -2,7 +2,8 @@ h2 {
     color: #4b2e22;
     font-size: 24px;
     margin-bottom: 10px;
-    
+    text-align: center;
+
 }
 
 h3 {
@@ -10,6 +11,7 @@ h3 {
     font-size: 20px;
     margin-bottom: 8px;
     height: 15px;
+
 }
 
 p {
@@ -75,23 +77,38 @@ button {
 .header {
     background-color: #492702;
     padding: 20px;
-    text-align:center; 
+    text-align: center;
+
+
 }
 
 .logo {
     background-color: #492702;
-    width: 3000px;
-    height: 200px;
     display: flex;
-    align-items: center;
     justify-content: center;
+    /* Centraliza na horizontal */
+    align-items: center;
+    /* Centraliza na vertical */
+    text-align: center;
+    /* Alinha o texto interno caso quebre em linhas */
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 h1 {
     color: #f9f5f2;
     font-size: 66px;
-    
+
+
 }
 
-
-
+main {
+    display: grid
+}
+.subtitulo{
+    color: #f9f5f2;
+     font-size: 17px;    
+     margin-top: -28px; /* Espaço acima */
+}
